@@ -6,7 +6,7 @@ pipeline {
         DB_PWD = credentials('db-pwd')
 
         DB_SYS_USER = credentials('db-sys-user')
-        DB_SYS_PWD = credentials('db-syhs-pwd')
+        DB_SYS_PWD = credentials('db-sys-pwd')
 
         DB_URL = credentials('db-url')
     }
