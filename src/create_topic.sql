@@ -8,3 +8,5 @@ begin
     );
     dbms_aqadm.start_queue(qname);
 end;
+commit;
+/
